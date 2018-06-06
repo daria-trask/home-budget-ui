@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "10.3.0"
+
+before_install:
+# adding this to be sure we use webpack instead of gulp, grunt or other shit
+#  - npm install --save-dev webpack
+  - npm i -g npm@version-number
+
+install:
+  - npm install
+
+script:
+  - echo "TODO"
