@@ -5,7 +5,7 @@ node_js:
 before_install:
 # adding this to be sure we use webpack instead of gulp, grunt or other shit
 #  - npm install --save-dev webpack
-  - npm i -g npm@version-number
+  - npm i -g npm
 
 install:
   - npm install
